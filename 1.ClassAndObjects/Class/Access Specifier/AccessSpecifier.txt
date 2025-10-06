@@ -1,0 +1,16 @@
+There are 3 Types of Access Specifier
+
+public      
+    -> we can Access any where throughout the program
+
+protected  
+    ->we can Access throughout the class and also in sub class
+
+private    
+    -> we can Access only with in the class , 
+       Outside of a class we can't Access a private Method
+
+Access Specifier	Accessible in Same Class	Accessible in Derived Class	    Accessible Outside Class
+public	    	            Accessible	    	      Accessible	                 Accessible
+protected   	            Accessible	              Accessible	      	        Not Accessible
+private	    	            Accessible	              Not Accessible	            Not Accessible	                

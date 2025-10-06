@@ -1,0 +1,9 @@
+Constructor is Special Method used to intialize the data members of a class
+
+There are 2 types of Constructors
+    ->default
+    ->parameterized
+
+->default -> Automatically called at the time of object creation
+->parameterized -> It takes arguments and allows to pass the parameters to the Constructor 
+                    at the time of object creation
