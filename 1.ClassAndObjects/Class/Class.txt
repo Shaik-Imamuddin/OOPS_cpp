@@ -1,0 +1,24 @@
+Class is nothing but Blue print or plan
+    it is a collection of datamembers and methods 
+
+Syntax:
+    class ClassName{
+        //datamembers 
+        //methods 
+    }
+    
+Terminology will be different in OOP(Object Oriented Programming)
+
+datamembers is nothing but Variables
+methods is nothing but Functions
+
+we can create any no.of objects for a single Class
+
+Real Time Example:
+let us suppose we are Going to Build a House
+First we need to get a plan for that
+that paln is nothing bus a Class
+By using that Plan we can Build any no.of houses
+House is nothing but an Object
+object is a real world entity
+The plan and requirements before making a real world entity is nothing but class

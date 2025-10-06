@@ -1,0 +1,33 @@
+
+Object:
+object is a real world entity
+it is also known as instance of a class
+instance is nothing but a way to access the properites of a class
+
+->we can create single object for a class
+->we can create Multiple object for a class
+->we can create n no.of object for a class
+    ->creating n no.of pbjects is nothing but Array of objects
+
+We can create objects in following 2 ways 
+
+mthd-1:
+
+ClassName objectName;
+
+The above Instruction will create a memory in stack
+Memory is automatically allocated and deallocated in this case
+
+mthd-2:
+Syntax:
+    ClassName* objectPtr = new ClassName();
+
+The above Instruction will create a memory in heap
+
+Objects created with new do NOT get deleted automatically.
+If not deleted manually, it causes a memory leak.
+
+so it needs manual memory deallocation
+
+Syntax:
+    delete objectPtr;
