@@ -1,0 +1,30 @@
+Inheritance:
+    Access the properties of one class into another class
+
+Terminology:
+super class - sub class
+parent class - child class
+base class - derived class
+
+Term	        Description
+superclass  -	The class whose properties are inherited
+subclass    -   The class that inherits from the superclass
+extends	    -   Keyword used for inherit the properties
+
+Access the properties of one class into another class we need to use extends keyword
+
+Note:
+while using inheritance we need to generate object only for child class
+
+Single Inheritance
+    ->single parent for a single child
+Multiple Inheritance
+    ->multiple parents for a single child
+Multilevel Inheritance
+    ->here one parent will have one child and that child contains of another sub-child
+    ->looks in the form of genertions ->Here it is level by level access
+Hierarichal Inheritance
+    ->one parent class will have multiple child classes
+    ->each child class can access the parent class
+Hybrid Inheritance
+    ->Hybrid inheritance is a Combination of both Multilevel and Hierarichal inheritance
