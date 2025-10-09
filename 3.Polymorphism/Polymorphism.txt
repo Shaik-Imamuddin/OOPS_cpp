@@ -1,0 +1,39 @@
+Polymorphism:
+
+The word itself says 
+poly means - many
+morphs - forms
+
+The same thing having different Behaviours / different characters
+
+There are two types of polymorphism
+    1->Method overloading
+    2->Method overriding
+
+method overloading:
+->it is also known as compile time polymorphism
+->it will be done with in a single class 
+->need to develop same methods with different no.of parameters
+(if it contains same no.of parameters then the return of parameters must be different) in a single class 
+
+Note:
+The Compiler will determine which method to be called at compile time, based on the method signature — not the runtime values.
+
+Method Overriding:
+
+->This is also Known as runtime polymorphism
+->we need to use inheritance for implementing method overriding
+->here we need to develop same methods with the same name, return type, and parameters
+in both parent and child classes
+
+Upcasting:
+Upcasting is the process of treating a child class object as an object of its parent class. 
+It is done implicitly or explicitly, and only the methods and variables of the parent class can be accessed 
+(unless overridden methods are called, which support runtime polymorphism(method overriding)).
+
+Downcasting:
+Downcasting is the process of converting a parent class reference back into a child class reference. 
+It must be done explicitly and is used when you want to access child class-specific methods or properties.
+
+Note:
+Whatever we can use in Method Overriding we can't access the methods of parent class  overridden by child class
