@@ -1,0 +1,34 @@
+Encapsulation:
+
+->Wrapping up the hidden data into a single unit
+
+->covering the hidden data with some other values
+
+->it will be used only with private variable
+
+->we need to declare the variables as private to achieve encapsulation
+
+->we can't Access the private variables in other classes (or) outside of the current class
+
+->but we need the private variables for implementing encapsulation
+
+->There are two ways for Accessing private variables
+
+	->By using Constructors
+	->By using getters and setters
+
+
+in getters and setters we are having 2 methods
+
+->get method
+->set method
+
+->get method
+	->get method will take the values
+	->get method will not have any argument
+	->get method will have return type
+
+->set method
+	->set method Assign the values
+	->set method will have arguments
+	->set method will not have any return type
