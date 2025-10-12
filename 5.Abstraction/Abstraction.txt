@@ -1,0 +1,48 @@
+Abstraction:
+
+generally Abstraction is used to say hiding of unwanted data.
+
+but practically abstraction in C++ is implemented using a virtual method inside a class, which is used to hide the data.
+
+we need to use a keyword called virtual to declare a virtual method in a class
+
+Syntax:
+
+class classname{
+    //we can declare the variables
+    //we can create virtual methods and non-virtual methods in class
+    //we can just declare virtual method , but we can't define the method inside base class (if =0 is used)
+};
+
+
+//whenever we create a class with virtual methods
+// we need to generate the object to the child class of our abstract class
+
+
+Note:
+
+Note:
+
+we can create non virtual methods inside the class
+
+->since it is not 100% abstraction implementation
+
+we can't create object to a class containing a pure virtual method(abstract class)
+
+To overcome this there is a concept called pure virtual class
+
+
+Pure Virtual Class:
+
+To overcome the dis-advantage of abstraction , we use pure virtual classes.
+
+->pure virtual class will have 100% abstraction,
+  which means we can't create non-abstract methods inside the pure virtual class
+
+->To create a pure virtual class, we need to declare a pure virtual method (=0) ,
+  we need to use inheritance to inherit it to the child class
+
+->when defining the pure virtual method in child class
+  we must have to specify it with public access
+
+->we can also implement multiple inheritance through pure virtual classes by inheriting more than one pure virtual class at a time.
